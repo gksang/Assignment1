@@ -1,2 +1,12 @@
-body{ background-color: azure ; color: #000000;}
-h1, h2, h3, h4, h5,{ color: #233a50;text-align: right}
+body{ 
+    background-color: azure ; 
+    color: #000000; 
+    background-image: url('images/logo-gexx.jpeg');
+    }
+h1, h2, h3, h4, h5{ 
+    color: #233a50;  
+    text-align: left
+    }
+a { 
+    color: #233a50; 
+    }
