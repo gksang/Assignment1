@@ -110,6 +110,7 @@ footer {
     color:var(--main);
     font-weight: var(--bold);
     text-align: center;
+}
  }
  .grid-container{
      display: grid;
