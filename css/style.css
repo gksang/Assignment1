@@ -1,10 +1,10 @@
 /*Default Colors*/
 :root{
-    --main: #3577b4;
+    --main: #ffffff;
     --grey: #252525;
     --dark:#101010;
     --light: #ffffff;
-    --fade: #b7b7b7;
+    --fade: #86d3dd;
     /* Font Weights*/
     --bold: 700;
     --regular: 400;
@@ -18,9 +18,59 @@ html{
     -webkit-box-sizing: border-box; /*Universal Box sizing*/
     -moz-box-sizing: border-box; /*Box sizing for Mozilla*/
 }
+.top-nav{
+    background-color: var(--fade);
+    overflow: hidden;
+}
+.top-nav a {
+    float: left;
+    color: var(--dark);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: Var(--bold)
+}
+.top-nav a:hover {
+    background-color: var(--fade);
+}
+.top-nav-right{
+    float: right;
+}
+/*Button Configurations*/
+button{
+    color: var(--dark);
+    font-weight: var(--bold);
+    align-items: right;
+}
+button:focus , button:active{
+    outline: none;
+}
+button:hover {
+    cursor:pointer;
+}
 body{ 
     font-family:'Roboto+Slab', sans-serif ;
     background-color: var(--main);
-    color: var(--light);
+    color: var(--dark);
     width: 100%;
     }
+a{
+    color: var(--light);
+    text-align: none;
+}
+p,h1,h2,h3,h4,h5 {
+    margin: 0%;
+}
+header a{
+    font-weight: var(--bold);
+    color: var(--dark);
+    font-size-adjust: inherit;
+    text-transform: uppercase;
+}
+header a:hover{
+    color:var(--main)
+}
+.about{
+    text-align: left;
+}
