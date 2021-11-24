@@ -40,11 +40,6 @@ html{
     float: right;
 }
 /*Button Configurations*/
-button{
-    color: var(--dark);
-    font-weight: var(--bold);
-    align-items: right;
-}
 button:focus , button:active{
     outline: none;
 }
