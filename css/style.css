@@ -32,6 +32,7 @@ html{
     font-size: 17px;
     font-weight: Var(--bold)
 }
+/*Top Navigation Section Defaults*/
 .top-nav a:hover {
     background-color: var(--fade);
     transition: all 0.3s ease; /* Changing in Hover Colour should be an easy transition*/
@@ -75,6 +76,7 @@ header a{
 header a:hover{
     color:var(--main)
 }
+/*Main Section Formatting*/
 .about{
     text-align: left;
     padding : 15px;
@@ -104,6 +106,7 @@ header a:hover{
    border: 2px solid white;
    border-radius: 5px;
 }
+/*Footer Defaults*/
 footer {
     padding: 5px;
     background-color: #cff2f7;
