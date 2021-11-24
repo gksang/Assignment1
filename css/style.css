@@ -111,8 +111,11 @@ footer {
     font-weight: var(--bold);
     text-align: center;
 }
- }
- .grid-container{
+.foot-1{
+    float: left;
+    font-weight:var(--bold);
+}
+.grid-container{
      display: grid;
      grid-template-rows: auto auto auto auto auto;
      padding: 5px;
