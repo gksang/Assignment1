@@ -34,6 +34,7 @@ html{
 }
 .top-nav a:hover {
     background-color: var(--fade);
+    transition: all 0.3s ease; /* Changing in Hover Colour should be an easy transition*/
 }
 .top-nav-right{
     float: right;
@@ -85,6 +86,10 @@ header a:hover{
     background-color: #cff2f7;
     border: 2px solid white;
     border-radius: 5px;
+    overflow: auto;
+}
+#about {
+    overflow:auto;
 }
 .skills{
     padding : 15px;
@@ -117,6 +122,6 @@ footer {
      padding: 5px;
  }
  li{
-     font-size: large;
+     font-size: x-large;
      padding: 2px;
  }
