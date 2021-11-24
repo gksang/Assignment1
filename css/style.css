@@ -1,12 +1,26 @@
+/*Default Colors*/
+:root{
+    --main: #3577b4;
+    --grey: #252525;
+    --dark:#101010;
+    --light: #ffffff;
+    --fade: #b7b7b7;
+    /* Font Weights*/
+    --bold: 700;
+    --regular: 400;
+}
+html{
+    scroll-behavior: smooth; /*Enables Smooth Scrolling on Site*/
+}
+/*Box sizing defaults*/
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box; /*Universal Box sizing*/
+    -moz-box-sizing: border-box; /*Box sizing for Mozilla*/
+}
 body{ 
-    background-color: azure ; 
-    color: #000000; 
-    background-image: url('images/logo-gexx.jpeg');
-    }
-h1, h2, h3, h4, h5{ 
-    color: #233a50;  
-    text-align: left
-    }
-a { 
-    color: #233a50; 
+    font-family:'Roboto+Slab', sans-serif ;
+    background-color: var(--main);
+    color: var(--light);
+    width: 100%;
     }
