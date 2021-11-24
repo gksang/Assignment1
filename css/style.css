@@ -5,6 +5,7 @@
     --dark:#101010;
     --light: #ffffff;
     --fade: #86d3dd;
+    --deep:#104bee;
     /* Font Weights*/
     --bold: 700;
     --regular: 400;
@@ -62,6 +63,13 @@ a{
 p,h1,h2,h3,h4,h5 {
     margin: 0%;
 }
+p{
+    color: var(--dark);
+    font-size: 16px;
+}
+.prof-pic{
+    float: left;
+}
 header a{
     font-weight: var(--bold);
     color: var(--dark);
@@ -73,4 +81,33 @@ header a:hover{
 }
 .about{
     text-align: left;
+    padding : 15px;
+    background-color: #b3eaf1;
+    border: 2px solid white;
+    border-radius: 5px;
 }
+.skills{
+    padding : 15px;
+    background-color: #b3eaf1;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.projects{
+    padding : 15px;
+    background-color: #b3eaf1;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.contacts{
+   padding: 15px; 
+   background-color: #b3eaf1;
+   border: 2px solid white;
+   border-radius: 5px;
+}
+footer {
+    padding: 5px;
+    background-color: var(--fade);
+    color:var(--main);
+    font-weight: var(--bold);
+    text-align: center;
+ }
