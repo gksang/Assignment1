@@ -5,6 +5,15 @@ Overview
 This was a first attempt at replicating what we learned during the 1st weeek of training, Key aspects were
 HTML and CSS Basics and how alter your websites using various aspects of the two languages
 
+Couse Objectives
+At the end of this section, you will be able to:
+1. Navigate the command line to access and create directories and files
+2. Use Git and GitHub to track the creation of static web pages
+3. Create a static webpage using HTML
+4. Style a static webpage using custom CSS rules in a linked stylesheet
+5. Create a project README.md in Markdown
+Adapt a webpage for responsive design
+
 Project Name: Assignment 
 Author : Gilbert Sang
 
