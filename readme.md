@@ -39,4 +39,4 @@ CSS,HTML Coding and Styling language were used
 For any support,comments and observations you can reach me at : sangkipgil@gmail.com
 ### License
 *GNU General Public License v3.0*
-Copyright (c) {2021 **Gilbert Sang**
+Copyright (c) 2021 **Gilbert Sang**
